@@ -1,3 +1,9 @@
+const button = document.querySelector("#myBtn");
+button.addEventListener("click", function(){
+    document.querySelector("#player").play();
+    document.querySelector("#myVideo").play();
+});
+
 const timer = 1;
 let AmountTime =  timer * 60;
 

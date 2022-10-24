@@ -19,3 +19,20 @@
     min-width: 100%;
     z-index: -10;
 }
+
+#myBtn {
+    display: none;
+}
+
+@media all and (max-width:500px){
+    #myBtn {
+        display: block;
+        padding: 10px;
+        background: linear-gradient(to right, #e9f7c3, #f0f3f5);
+        border-radius: 20px;
+    }
+
+    body{
+        background: linear-gradient(to right, #e9f7c3, #f0f3f5);
+    }
+}
